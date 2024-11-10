@@ -1,0 +1,39 @@
+body{
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: grey;
+}
+.container{
+    width: 80%;
+    max-width: 800px;
+}
+h1{
+    text-align: center;
+}
+.controls{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+#posts-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.post{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
